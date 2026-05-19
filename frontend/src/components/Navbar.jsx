@@ -6,7 +6,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [active, setActive] = useState('Home');
 
-  const navItems = ['Home', 'About', 'Projects', 'Skills', 'Experience', 'Photo Booth', 'Blog', 'Contact'];
+  const navItems = ['Home', 'About', 'Projects', 'Skills', 'Experience', 'Blog', 'Contact'];
 
   useEffect(() => {
     const handleScroll = () => {

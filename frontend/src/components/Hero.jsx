@@ -151,13 +151,10 @@ const Hero = () => {
           <a href="#projects" className="glass-btn primary-glass">
             Explore Projects
           </a>
-          <a href="#blog" className="glass-btn tertiary-glass">
+          <a href="#blog" className="glass-btn secondary-glass">
             AI Blog
           </a>
-          <a href="#photobooth" className="glass-btn quaternary-glass">
-            Photo Booth
-          </a>
-          <a href="#contact" className="glass-btn secondary-glass">
+          <a href="#contact" className="glass-btn tertiary-glass">
             Contact Me
           </a>
         </motion.div>
