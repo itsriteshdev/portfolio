@@ -97,7 +97,11 @@ const About = () => {
 
             {/* CTA Button */}
             <div className="about-action">
-              <a href="#contact" className="primary-btn glow-box download-resume-btn">
+              <a 
+                href="/resume.png" 
+                download="Ritesh_Prasad_Resume.png"
+                className="primary-btn glow-box download-resume-btn"
+              >
                 Download Resume <Download size={18} />
               </a>
             </div>
